@@ -26,16 +26,19 @@
         android:layout_marginBottom="70dp"/>
 
     <TextView
+        android:id="@+id/tempTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:textSize="90sp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/default_temp"
-        android:id="@+id/tempTV"
         android:layout_below="@+id/changeCityButton"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:text="@string/default_temp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:textSize="90sp" />
 
     <ImageButton
         android:layout_width="wrap_content"
